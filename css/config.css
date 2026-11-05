@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Great+Vibes&family=Playfair+Display:wght@400;500;600&display=swap');
+
+/* RESET GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #fff8f2;
+}
+
+button {
+    font-family: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* VARIABLES */
+
+:root {
+    --fondo: #fff8f2;
+    --rosa-claro: #f8d7de;
+    --rosa: #d99daf;
+    --vino: #a65c73;
+    --texto: #65414b;
+    --blanco: #ffffff;
+
+    --fuente-romantica: 'Great Vibes', cursive;
+    --fuente-titulos: 'Playfair Display', serif;
+    --fuente-texto: 'DM Sans', sans-serif;
+}
